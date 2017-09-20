@@ -24,6 +24,7 @@ p {
   font-family: 'Josefin Sans', Helvetica, sans-serif;
   padding: 4px;
   text-decoration: none;
+  text-align: center;
 }
 
 #nav a:hover, #nav a:active {
