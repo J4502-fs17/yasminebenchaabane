@@ -12,6 +12,10 @@ img{
   border: none;
 }
 
+#container {
+  width: 95%;
+  margin: 0 auto;
+}
 
 #nav li {
   list-style-type: none;
