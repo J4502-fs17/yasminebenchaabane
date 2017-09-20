@@ -1,0 +1,32 @@
+h1 {
+  color: black;
+  font-family: 'Cinzel', Courier, serif;
+}
+
+p {
+  color: black;
+  font-family: 'Open Sans', Helvetiva, sans-serif;
+}
+
+
+
+#nav li {
+  list-style-type: none;
+}
+ #nav {
+   padding: 0;
+ }
+
+#nav a:link {
+  display: block;
+  color: purple;
+  font-weight: bold;
+  font-family: 'Josefin Sans', Helvetica, sans-serif;
+  padding: 4px;
+  text-decoration: none;
+}
+
+#nav a:hover, #nav a:active {
+  color: red;
+  text-decoration: underline;
+}
