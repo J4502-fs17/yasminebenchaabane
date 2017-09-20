@@ -25,6 +25,7 @@ p {
   padding: 5px;
   text-decoration: none;
   text-align: center;
+  background-color: #D572DD;
 }
 
 #nav a:hover, #nav a:active {
