@@ -53,3 +53,11 @@ img{
   color: red;
   text-decoration: underline;
 }
+
+@media only screen and (min-device-width: 480px) {
+.floater {
+  width: 40%;
+  float: left;
+  margin-right: 10px;
+}
+}
