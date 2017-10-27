@@ -23,6 +23,14 @@ img{
   justify-content: space-around;
 }
 
+
+@media only screen and (max-device-width: 480px) {
+#nav {
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
 #nav li {
   list-style-type: none;
 }
