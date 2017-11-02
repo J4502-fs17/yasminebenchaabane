@@ -27,7 +27,7 @@ img{
 @media only screen and (max-device-width: 480px) {
 #nav {
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-between;
 	}
 }
 
@@ -56,14 +56,6 @@ img{
 #nav a:hover, #nav a:active {
   color: red;
   text-decoration: underline;
-}
-
-@media only screen and (min-device-width: 480px) {
-.floater {
-  width: 40%;
-  float: left;
-  margin-right: 10px;
-}
 }
 
 #grid {
