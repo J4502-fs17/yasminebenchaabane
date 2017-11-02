@@ -27,7 +27,7 @@ img{
 @media only screen and (max-device-width: 480px) {
 #nav {
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: center;
 	}
   #grid {
           margin: 0;
