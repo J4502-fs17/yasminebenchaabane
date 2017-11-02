@@ -59,6 +59,7 @@ img{
 #grid {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 img {
