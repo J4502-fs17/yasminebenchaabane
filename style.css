@@ -73,6 +73,7 @@ img{
  }
 
 #nav a:link {
+  list-style-type: none;
   display: block;
   color: purple;
   font-weight: bold;
