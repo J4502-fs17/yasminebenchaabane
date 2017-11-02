@@ -30,6 +30,11 @@ img{
 		flex-direction: column;
 		justify-content: space-between;
 	}
+  #grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 
 #nav li {
@@ -56,11 +61,7 @@ img{
   text-decoration: underline;
 }
 
-#grid {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+
 
 img {
   max-width: 100%;
