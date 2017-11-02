@@ -61,3 +61,8 @@ img{
   margin-right: 10px;
 }
 }
+
+#grid {
+  display: flex;
+  flex-direction: row;
+}
