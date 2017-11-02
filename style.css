@@ -35,7 +35,7 @@ img{
   list-style-type: none;
 }
  #nav {
-   padding: 0;
+   padding: 10px;
  }
 
 #nav a:link {
