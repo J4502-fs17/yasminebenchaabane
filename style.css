@@ -45,8 +45,6 @@ img{
 
 #nav a:link {
   list-style-type: none;
-  display: block;
-  color: purple;
   font-weight: bold;
   font-family: 'Josefin Sans', Helvetica, sans-serif;
   padding: 0px;
