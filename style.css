@@ -28,32 +28,15 @@ img{
 @media only screen and (max-device-width: 480px) {
 #nav {
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-around;
 	}
 }
 
 #nav li {
   list-style-type: none;
   margin: 0;
-  padding: 25px;
-  width: 150px;
 }
 
- #nav {
-   padding: 10px;
- }
-
-#nav a:link {
-  list-style-type: none;
-  display: block;
-  color: purple;
-  font-weight: bold;
-  font-family: 'Josefin Sans', Helvetica, sans-serif;
-  padding: 0px;
-  text-decoration: none;
-  text-align: center;
-  background-color: #D572DD;
-}
 
 #nav a:hover, #nav a:active {
   color: red;
