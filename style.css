@@ -111,3 +111,6 @@ img {
     .pic3 {
         grid-area: c;
     }
+    .text {
+        grid-area: d;
+    }
