@@ -130,6 +130,6 @@ img {
     @media screen and (max-width: 650px) {
     #grid {
       display: flex;
-      flex-direction: row;
+      flex-direction: column-reverse;
       flex-wrap: wrap-reverse;}
     }
