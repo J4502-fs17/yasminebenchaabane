@@ -137,4 +137,9 @@ img {
       justify-content: space-between;
       	}
     }
- 
+ @media screen and (min-width: 800px) {
+   #nav {
+     flex-direction: row;
+     float: right;
+   }
+ }
