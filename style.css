@@ -85,7 +85,7 @@ img {
         grid-area: d;
     }
 
-    @media only screen and (max-device-width: 480px) {
+    @media screen and (max-device-width: 480px) {
     #nav {
     		flex-direction: column;
     		justify-content: space-between;
@@ -124,4 +124,11 @@ img {
           .text {
               grid-area: d;
           }
+    }
+
+    @media screen and (min-width: 650px) {
+    #grid {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap-reverse;;}
     }
