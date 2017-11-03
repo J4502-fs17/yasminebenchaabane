@@ -11,6 +11,7 @@ p {
 
 img{
   border: none;
+  height: auto;
 }
 
 #container {
