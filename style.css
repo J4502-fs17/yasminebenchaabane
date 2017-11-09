@@ -86,10 +86,11 @@ img {
         grid-area: d;
     }
 
+
+@media screen and (min-width: 500px){
 .menu-trigger {
   display: none;
-}
-
+}}
     @media screen and (max-width: 400px) {
     #grid {
       display: flex;
