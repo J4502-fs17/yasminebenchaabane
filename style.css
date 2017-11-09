@@ -86,7 +86,9 @@ img {
         grid-area: d;
     }
 
-
+.menu-trigger {
+  display: none;
+}
 
     @media screen and (max-width: 400px) {
     #grid {
