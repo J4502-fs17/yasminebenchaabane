@@ -88,9 +88,8 @@ img {
 
     @media screen and (max-device-width: 480px) {
     #nav {
-    		flex-direction: column;
-    		justify-content: space-between;
-    	}
+    		display: none;
+      }
       #grid {
         display: flex;
         flex-direction: column;
@@ -136,8 +135,12 @@ img {
       flex-direction: column;
       justify-content: space-between;
       	}
+
+      .menu-trigger {
+          display: none;
+        }
     }
- 
+
 
  @media screen and (min-width:700px) {
 
