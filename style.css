@@ -50,7 +50,7 @@ img{
   text-decoration: underline;
 }
 
-#nav ul {
+#nav {
   display: none;
 }
 
@@ -93,7 +93,7 @@ img {
           display: none;
         }
 
-    #nav ul {
+    #nav {
     		display: none;
       }
       #grid {
