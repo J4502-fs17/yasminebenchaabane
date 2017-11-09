@@ -87,9 +87,7 @@ img {
     }
 
     @media screen and (max-device-width: 480px) {
-      .menu-trigger {
-        display: none;
-      }
+
 
     #nav {
     		display: none;
@@ -130,7 +128,7 @@ img {
           }
     }
 
-    @media screen and (max-width: 650px) {
+    @media screen and (min-width: 600px) {
     #grid {
       display: flex;
       flex-direction: column-reverse;
@@ -138,6 +136,10 @@ img {
     #nav {
       display: none;
       	}
+
+    .menu-trigger {
+      diplay: none;
+    }
 
 
     }
