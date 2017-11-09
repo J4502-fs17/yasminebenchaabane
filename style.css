@@ -50,7 +50,9 @@ img{
   text-decoration: underline;
 }
 
-
+#nav ul {
+  display: none;
+}
 
 img {
   max-width: 100%;
