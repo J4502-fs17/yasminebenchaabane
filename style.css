@@ -57,38 +57,6 @@ img {
 }
 
 
-
-#grid {
-        margin: 0;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        grid-template-areas:
-            "a b c"
-            "d d d" ;
-    }
-
-
-
-    .pic1 {
-        grid-area: a;
-    }
-
-    .pic2 {
-        grid-area: b;
-    }
-
-    .pic3 {
-        grid-area: c;
-    }
-    .text {
-        grid-area: d;
-    }
-
-
-
-
     @media screen and (min-width: 400px) {
     #grid {
       display: flex;
@@ -124,4 +92,33 @@ img {
        flex-direction: row;
        justify-content: space-between;
      }
+
+
+     #grid {
+             margin: 0;
+             padding: 0;
+             display: grid;
+             grid-template-columns: 1fr 1fr 1fr;
+             grid-gap: 20px;
+             grid-template-areas:
+                 "a b c"
+                 "d d d" ;
+         }
+
+
+
+         .pic1 {
+             grid-area: a;
+         }
+
+         .pic2 {
+             grid-area: b;
+         }
+
+         .pic3 {
+             grid-area: c;
+         }
+         .text {
+             grid-area: d;
+         }
  }
