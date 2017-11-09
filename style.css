@@ -137,9 +137,28 @@ img {
       justify-content: space-between;
       	}
     }
- @media screen and (min-width: 800px) {
-   #nav {
-     flex-direction: row;
-     justify-content: space-between;
-   }
+ 
+
+ @media screen and (min-width:700px) {
+
+     nav ul {
+       display: flex;
+     }
+
+     nav ul li {
+       border-top: none;
+     }
+
+     .menu-trigger {
+       display: none;
+     }
+
+     nav {
+       order: 2;
+     }
+
+     #nav {
+       flex-direction: row;
+       justify-content: space-between;
+     }
  }
