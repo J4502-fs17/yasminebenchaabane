@@ -132,8 +132,7 @@ img {
       flex-direction: column-reverse;
       flex-wrap: wrap-reverse;}
     #nav {
-      flex-direction: column;
-      justify-content: space-between;
+      display: none;
       	}
 
     }
