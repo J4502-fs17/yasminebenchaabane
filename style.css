@@ -87,12 +87,9 @@ img {
     }
 
 
-@media screen and (min-width: 450px){
-.menu-trigger {
-  display: none;
-}}
 
-    @media screen and (max-width: 400px) {
+
+    @media screen and (min-width: 400px) {
     #grid {
       display: flex;
       flex-direction: column-reverse;
@@ -100,7 +97,8 @@ img {
     #nav {
       display: none;
       	}
-
+        .menu-trigger {
+          display: none;
 
 
     }
