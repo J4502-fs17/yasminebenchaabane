@@ -87,7 +87,11 @@ img {
     }
 
     @media screen and (max-device-width: 480px) {
-    #nav {
+      .menu-trigger {
+          display: none;
+        }
+
+    #nav ul {
     		display: none;
       }
       #grid {
@@ -136,9 +140,6 @@ img {
       justify-content: space-between;
       	}
 
-      .menu-trigger {
-          display: none;
-        }
     }
 
 
