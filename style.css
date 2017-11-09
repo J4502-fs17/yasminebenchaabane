@@ -87,7 +87,7 @@ img {
     }
 
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 450px){
 .menu-trigger {
   display: none;
 }}
