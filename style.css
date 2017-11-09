@@ -86,9 +86,6 @@ img {
     }
 
     @media screen and (max-device-width: 480px) {
-      .menu-trigger {
-          display: none;
-        }
 
     #nav {
     		display: none;
