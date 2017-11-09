@@ -128,18 +128,7 @@ img {
           }
     }
 
-    @media screen and (max-width: 600px) {
-    #grid {
-      display: flex;
-      flex-direction: column-reverse;
-      flex-wrap: wrap-reverse;}
-    #nav {
-      display: none;
-      	}
-  
-
-
-    }
+    
 
 
  @media screen and (min-width:700px) {
